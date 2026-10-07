@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rachar a conta</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <main>
+        <h1>Rachando a conta</h1>
+        <label for="valor">Insira sua conta aqui R$:</label>
+        <input type="number" name="conta" id="valor" step ="0.1">
+        <label for="pessoas">N de pessoas para dividir a conta</label>
+        <input type="number" name="pessoas" id="pessoas"
+        min="1">
+        <button id="calcular">Calcular</button>
+        <p id="resultado" class="resultado">Resultado</p>
+        
+    </main>
+    <script src="./js/conta.js"></script>
+    
+</body>
+</html>

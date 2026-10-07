@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Define o padrão de caracteres da página -->
+    <meta charset="UTF-8">
+    <!-- Ajusta a exibição para telas de diferentes tamanhos -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da página -->
+    <title>Horas e Minutos</title>
+    <!-- Conecta o HTML ao estilo CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Conteúdo principal da página -->
+    <main class="exercicio">
+        <!-- Título do exercício -->
+        <h1>Converter Minutos em Horas</h1>
+
+        <!-- Campo para digitar a duração em minutos -->
+        <label for="duracao">Minutos:</label>
+        <input type="number" id="duracao" step="1">
+
+        <!-- Botão para realizar a conversão -->
+        <button id="calcular">Calcular</button>
+
+        <!-- Área onde o resultado será exibido -->
+        <p id="resultado" class="resultado">O resultado aparece aqui!</p>
+    </main>
+
+    <!-- Importa o script JavaScript da lógica -->
+    <script src="./js/tempo.js"></script>
+</body>
+</html>
