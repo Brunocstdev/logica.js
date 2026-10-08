@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Viagem</title>
 </head>
 <body>
+    <main>
+    <h1>Custo de Viagem</h1>
+
+    <label for="distancia">Distancia (Km)</label>
+    <input type="number" name="distancia" id="distancia">
+
+     <label for="litro">Consumo do carro (L)</label>
+    <input type="number" name="litro" id="litro">
+
+    <label for="preco">Preço do litro (R$) </label>
+    <input type="number" name="preco" id="preco">
+    <button id="enviar">Enviar</button>
+
+    <p id="resultado" class="resultado"></p>
+
+   </main>
     
-</body>
+   <script src="./js/viagem.js"></script>
+
+   </body>
+   
+<!--
+Quando o consumo é zero um erro "infinity " aparece na tela-->
 </html>
