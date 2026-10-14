@@ -15,3 +15,6 @@
   background: var(--cor-suave);
   white-space: pre-line;
 }
+.ok{border-color: green; background: #FFFFFF;}
+.alerta{border-color: orange; background: #FFFFFF;}
+.erro{border-color: red; background: #FFFFFF;}
